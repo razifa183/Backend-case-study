@@ -44,15 +44,18 @@ This repository contains my solution to the Backend Engineering Intern Case Stud
 
 ---
 
-## 📂 Project Structure
 bynry-backend-case-study/
-├── app/
-│ ├── init.py # Makes app a package
-│ ├── models.py # All SQLAlchemy models
-│ └── routes.py # All API logic using Blueprint
 │
-├── main.py # Flask app entry point
-├── requirements.txt # Python dependencies
-├── CASE_STUDY_RESPONSE.md # My answers to all 3 parts
-├── README.md # Project summary and setup
+├── app/                            # 🔧 Application package
+│   ├── __init__.py                 # (empty file) Makes app a Python package
+│   ├── models.py                   # SQLAlchemy models (Product, Warehouse, etc.)
+│   └── routes.py                   # All route handlers (API logic)
+│
+├── main.py                         # Flask app entry point (runs the server)
+├── insert.py            # Script to populate dummy test data
+├── requirements.txt                # Python dependencies
+├── CASE_STUDY_RESPONSE.md          # Written answers for Part 1, 2, and 3 of the case study
+├── README.md                       # Project summary, setup, API docs, and run instructions
+├── .gitignore                      # Files to ignore (optional, e.g., venv, __pycache__)
+
 
