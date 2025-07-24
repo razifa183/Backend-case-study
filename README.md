@@ -43,19 +43,20 @@ This repository contains my solution to the Backend Engineering Intern Case Stud
 - Git & GitHub (for version control)
 
 ---
+## Project Structure
 
 bynry-backend-case-study/
-│
-├── app/                            # 🔧 Application package
-│   ├── __init__.py                 # (empty file) Makes app a Python package
-│   ├── models.py                   # SQLAlchemy models (Product, Warehouse, etc.)
-│   └── routes.py                   # All route handlers (API logic)
-│
-├── main.py                         # Flask app entry point (runs the server)
-├── insert.py            # Script to populate dummy test data
-├── requirements.txt                # Python dependencies
-├── CASE_STUDY_RESPONSE.md          # Written answers for Part 1, 2, and 3 of the case study
-├── README.md                       # Project summary, setup, API docs, and run instructions
-├── .gitignore                      # Files to ignore (optional, e.g., venv, __pycache__)
+
+app/
+  __init__.py                # (empty file) Makes 'app' a Python package
+  models.py                 # SQLAlchemy models (Product, Warehouse, etc.)
+  routes.py                 # All route handlers (API logic using Blueprint)
+
+main.py                     # Flask app entry point (runs the server)
+insert.py                   # Script to populate dummy test data
+requirements.txt            # Python dependencies
+CASE_STUDY_RESPONSE.md      # Written answers for Part 1, 2, and 3 of the case study
+README.md                   # Project summary, setup instructions, and API docs
+.gitignore                  # Files and folders to ignore (optional)
 
 
